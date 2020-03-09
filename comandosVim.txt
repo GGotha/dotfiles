@@ -1,0 +1,16 @@
+x => igual a um delete do backspace
+h => <
+j => \/
+k => /\
+l => >
+dd => apaga uma linha inteira
+dw => apaga uma palavra
+2dw => apaga duas palavras
+3dw => apaga tres palavras
+d$ => apaga tudo do cursor para a =>
+u => undo
+U => undo da linha
+p => insere a linha apagada
+/console.log => procura no arquivo onde tem console.log
+n => funciona apenas quando existem palavras marcadas, ex: no comando acima procumos por /console.log, se apertarmos n ele ira para os proximos console.logs
+:noh => remove campos selecionados
