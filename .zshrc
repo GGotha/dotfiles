@@ -70,7 +70,11 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+
+plugins=( 
+    zsh-autosuggestions
+    git
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,11 +103,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /home/gotha/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+alias intellij="sh /home/gotha/intellij/bin/idea.sh"
 
-eval "$(starship init zsh)"
 export M2_HOME=/home/gotha/apache-maven-3.8.4
 export PATH=${M2_HOME}/bin:${PATH}
-export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_301
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:$JAVA_HOME/bin
-alias intellij="sudo sh /home/gotha/Desktop/Desktop/intellij/idea-IU-213.6461.79/bin/idea.sh"
+
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias vim="nvim"
