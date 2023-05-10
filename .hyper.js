@@ -4,7 +4,7 @@ module.exports = {
     config: {
         updateChannel: 'stable',
         fontSize: 14,
-        fontFamily: '"Fira Code", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        fontFamily: '"FiraCode Nerd Font", "SF Mono", Menlo, Monaco, "Courier New", monospace',
         fontWeight: 'normal',
         fontWeightBold: 'bold',
         lineHeight: 1,
