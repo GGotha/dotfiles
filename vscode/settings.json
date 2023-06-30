@@ -1,0 +1,69 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 24,
+    "editor.fontSize": 14,
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.fontSize": 14,
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx",
+      "php": "php"
+    },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "php": "php"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "Fira Code",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.colorTheme": "Pulse Theme",
+    "synthwave84.disableGlow": false,
+    "synthwave84.brightness": 0.45,
+    "editor.formatOnPaste": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "dart.flutterSdkPaths": ["/users/gusta/fvm/versions"],
+    "dart.previewFlutterUiGuides": true,
+    "[handlebars]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "notebook.cellToolbarLocation": {
+      "default": "right",
+      "jupyter-notebook": "left"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "window.zoomLevel": -1
+  }
+  
